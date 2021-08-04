@@ -6,7 +6,7 @@ defmodule Digraph do
   end
 
   def from_alphabetical_order(words) do
-    from_alphabetical_order(words, %Digraph{edges: []})
+    from_alphabetical_order(words, Digraph.new())
   end
 
   defp from_alphabetical_order(words, graph) do
