@@ -1,0 +1,6 @@
+#+AUTHOR: Simon Stoltze
+#+EMAIL: sst@issuu.com
+#+DATE: 2021-08-04
+#+OPTIONS: toc:nil title:nil author:nil email:nil date:nil creator:nil
+* elixir-playground
+A repository for small elixir projects and playing around.
