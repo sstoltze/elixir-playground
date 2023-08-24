@@ -1,5 +1,5 @@
 <section>
   <h2>Hello world</h2>
   <p>Some text</p>
-  <p><%= @alphabet %></p>
+  <p><%= @graph %></p>
 </section>

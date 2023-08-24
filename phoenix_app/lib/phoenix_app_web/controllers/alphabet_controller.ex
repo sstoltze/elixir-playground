@@ -12,6 +12,6 @@ defmodule PhoenixAppWeb.AlphabetController do
 
     graph = alphabet |> String.split(",") |> Digraph.from_alphabetical_order() |> Digraph.to_dot()
 
-    render(conn, :alphabet, alphabet: graph)
+    render(conn, :alphabet, graph: graph)
   end
 end
