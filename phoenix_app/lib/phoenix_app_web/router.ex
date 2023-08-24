@@ -18,6 +18,9 @@ defmodule PhoenixAppWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :home
+
+    get "/alphabet", AlphabetController, :input
+    get "/alphabet/:words", AlphabetController, :input
   end
 
   # Other scopes may use custom stacks.
