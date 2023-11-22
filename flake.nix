@@ -1,5 +1,5 @@
 {
-  description = "A template that shows all standard flake outputs";
+  description = "Elixir/phoenix setup";
 
   # Inputs
   # https://nixos.org/manual/nix/unstable/command-ref/new-cli/nix3-flake.html#flake-inputs
